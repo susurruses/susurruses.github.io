@@ -1,0 +1,205 @@
+{
+  "utilityapi": {
+    "hide": true,
+    "client": "UtilityAPI",
+    "color": "#1d8be4",
+    "link": "https://utilityapi.com",
+    "my_role": "Development"
+  },
+  "sftff": {
+    "client": "San Francisco Transgender Film Festival",
+    "color": "#e00229",
+    "my_role": "Design &amp; Development",
+    "key_features": [
+      "Yearly film festival navigation",
+      "Detailed program information"
+    ],
+    "link": "https://sftff.org/",
+    "brief": "<p>The San Francisco Transgender Film Festival is the nation&#8217;s oldest transgender film festival. I worked with SFTFF to create a visual design that pays homage to the festival&#8217;s punk roots, and a website structure that allows for yearly program schedules with detailed listings for each participating film.</p><p>In the design process, we explored how to authentically portray the punk, grassroots nature of the festival, without crossing into a pastiche of punk aesthetics. In the end, we settled on a minimal, brutalist-adjacent interpretation of punk. SFTFF&#8217;s older site had small text and images, and a key goal of the redesign was to aid readability and allow for more prominent visual presentation of the featured films. We also decided to strip away significant amounts of content that had been present before, creating an easier-to-digest navigation structure.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Alternative design (not chosen)",
+        "img": "home-alt"
+      },
+      {
+        "caption": "Program schedule",
+        "img": "program"
+      }
+    ]
+  },
+  "palestine-legal": {
+    "client": "Palestine Legal Legislation",
+    "color": "#b1d235",
+    "key_features": [
+      "Interactive legislation map",
+      "Dynamic charts and graphs",
+      "Single source of data dynamically populates map, charts, statistics"
+    ],
+    "my_role": "<abbr title='Information Architecture'>IA</abbr> &amp; Development",
+    "credits": "Visual design by <a href='https://designaction.org/' target='_blank'>Design Action Collective</a>",
+    "link": "https://legislation.palestinelegal.org/",
+    "brief": "<p>Palestine Legal wished to create a microsite to track and organize US legislation targeting Palestinian freedom and advocacy. The site allows users to find out detailed information about specific legislation, as well as view broader trends around types of legislation, the spread of legislation over time, and legislation status.</p><p>Palestine Legal had been tracking and mapping this information on their previous site, but the prior tools they used proved cumbersome and were an impediment to keeping the data current and up-to-date. Therefore, a major consideration of the new microsite was to establish a single source of data that would automatically feed into the different areas of the site: the main filterable map, legislation statistics, and detailed state/federal pages.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Statistics",
+        "img": "stats"
+      },
+      {
+        "caption": "State page",
+        "img": "state"
+      }
+    ]
+  },
+  "seandorsey": {
+    "client": "Sean Dorsey Dance",
+    "color": "#26808c",
+    "my_role": "Design & Development",
+    "link": "https://seandorseydance.com/",
+    "brief": "<p>Sean Dorsey is an acclaimed dancer and choreographer based out of San Francisco, who has been recognized as the United State&#8217;s first acclaimed transgender modern dance choreographer. Sean Dorsey creates and performs dance works with a company of dancers under the name Sean Dorsey Dance.</p><p>I worked with Sean Dorsey Dance to redesign their aging website to feel modern and fresh, with reorganized content and structure to more easily navigate many years of archival and current project info.</p><p>This redesign was done in conjunction with the redesign of Sean Dorsey Dance&#8217;s parent organization, Fresh Meat Productions. Prior to the redesign, events and news related to Sean Dorsey Dance had to be manually posted on both sites, so a key goal of the new sites was to simplify this content entry process. Now, SDD-related content posted on Fresh Meat Production&#8217;s event calendar and news page is automatically synced to show up on the relevant Sean Dorsey Dance pages.</p><p>Another element of the redesign involved creating an in-site microsite for SDD&#8217;s multi-year dance work, The Lost Art of Dreaming. This included a separate navigation structure for this microsite, plus an interactive alphabet feature exploring community-generated terms of joy and pleasure.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Interactive alphabet feature",
+        "img": "laod-djp"
+      },
+      {
+        "caption": "Past works page",
+        "img": "past-works"
+      }
+    ]
+  },
+  "prison-radio": {
+    "client": "Prison Radio",
+    "color": "#ECBE25",
+    "key_features": [
+      "Filterable audio commentary archive",
+      "Correspondent directory",
+      "Podcast feeds"
+    ],
+    "my_role": "Design & Development",
+    "link": "https://www.prisonradio.org",
+    "brief": "<p>Prison Radio records, produces, and distributes audio commentaries produced by those most impacted by the prison industrial complex. With over thirty years of archival content and over one hundred correspondents, Prison Radio needed a clean, easy-to-navigate site that provides ways to find audio commentaries by correspondent, year, and keyword tags, plus special collections of featured commentaries.</p><p>Each correspondent features a profile with biographical data. In order to lower maintenance needs for these profiles, we developed custom features to display a correspondents age and length of incarceration based on birthday and incarceration entry dates.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Commentaries archive",
+        "img": "commentaries"
+      },
+      {
+        "caption": "Correspondent template (Mumia Abu-Jamal)",
+        "img": "mumia"
+      }
+    ]
+  },
+  "freshmeat": {
+    "client": "Fresh Meat Productions",
+    "color": "#e60077",
+    "key_features": [
+      "Vast archive of programs, press coverage, and news",
+      "Events calendar",
+      "On-site merch store (customized WooCommerce installation)"
+    ],
+    "my_role": "Design &amp; Development",
+    "link": "https://freshmeatproductions.org/",
+    "brief": "<p>Fresh Meat Productions is a performing arts and advocacy group for transgender and gender-nonconforming communities. Fresh Meat Productions came to me seeking a redesign of their website, with a simultaneous redesign of their resident dance company website, Sean Dorsey Dance. The goal was to maintain a common visual design language across both sites, while allowing each site to maintain their own identity.</p><p>In addition to the shared visual language, both sites share some content, such as events, news, and funder information. For the new site, we were able to create a publishing workflow that allowed for some content to be automatically synced between the Fresh Meat Productions and Sean Dorsey Dance websites.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Mission page",
+        "img": "mission"
+      },
+      {
+        "caption": "Programs page (Open menu)",
+        "img": "menu"
+      }
+    ]
+  },
+  "gem": {
+    "client": "Global Energy Monitor",
+    "color": "#84d7d6",
+    "key_features": [
+      "Hub for organizational projects",
+      "Filterable multilingual reports"
+    ],
+    "my_role": "Design & Development",
+    "link": "https://globalenergymonitor.org/",
+    "brief": "<p>Global Energy Monitor sought to redesign their site to better highlight their organizational projects: a series of trackers, hubs, and wikis that cover global energy systems. Previously, these projects were spread across different websites, so there was a desire to present a unified system that could act as a hub for all the existing projects, and create a space for adding future projects.</p><p>The major focus of the project was around creating a system that would clearly present information for each project, along with embedding the specific tools (maps, dashboards, wikis) related to each project.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Tracker template",
+        "img": "tracker"
+      }
+    ]
+  },
+  "dac": {
+    "client": "Design Action Collective",
+    "color": "#d83f19",
+    "key_features": [
+      "Highly-customizable Case Studies to highlight significant projects",
+      "Template-driven project archive",
+      "Comprehensive discovery process"
+    ],
+    "my_role": "<abbr title='Information Architecture'>IA</abbr> &amp; Development",
+    "link": "https://designaction.org/",
+    "brief": "<p>Design Action is a worker-owned design group based out of Oakland, California. I worked for Design Action Collective for seven years before deciding to move to my home state of Oregon and become an independent developer and designer. Once independent, Design Action contracted me to help with their website redesign.</p><p>I began the process with a detailed needs assessment, seeking to understand and build consensus among all the cooperative members around what issues they were facing with their current website, and what they hoped to accomplish in the redesign. Once complete, I lead them through an information architecture (<abbr>IA</abbr>) process, creating wireframes for all key templates for various screen sizes. At this point I handed the wireframes over to Design Action, who created the visual design to match their simultaneous logo rebranding. Finally, I took the completed designs and developed the website via a custom-built WordPress theme.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Project archive",
+        "img": "project-archive"
+      }
+    ]
+  }
+}
