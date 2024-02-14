@@ -1,11 +1,4 @@
 {
-  "utilityapi": {
-    "hide": true,
-    "client": "UtilityAPI",
-    "color": "#1d8be4",
-    "link": "https://utilityapi.com",
-    "my_role": "Development"
-  },
   "sftff": {
     "client": "San Francisco Transgender Film Festival",
     "color": "#e00229",
