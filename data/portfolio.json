@@ -1,4 +1,35 @@
 {
+  "utilityapi": {
+    "client": "UtilityAPI",
+    "color": "#1d8be4",
+    "my_role": "Development",
+    "credits": "Visual design by <a href='https://www.dgplusdesign.com'>DG+</a>",
+    "key_features": [
+      "Lightweight, performance-optimized code",
+      "Library of custom formatted components",
+      "Data migration from multiple sources"
+    ],
+    "link": "https://utilityapi.com",
+    "brief": "<p>UtilityAPI provides access to standardized utility and energy data to aid companies towards a goal of a clean energy future. I worked with UtilityAPI to implement the designs created by DG+ into an easy-to-use custom WordPress theme.</p><p>UtilityAPI&#8217;s previous website was difficult to update, so in addition to building the new site to feature many pre-composed and formatted components and templates, the project also included detailed documentation and screenshare-based trainings for UtilityAPI&#8217;s marketing team.</p><p>At every stage of the process, care was taken to keep the code as lightweight and performant as possible.</p>",
+    "slides": [
+      {
+        "caption": "Home page (desktop)",
+        "img": "desktop"
+      },
+      {
+        "caption": "Home page (mobile)",
+        "img": "mobile"
+      },
+      {
+        "caption": "Pricing page",
+        "img": "pricing"
+      },
+      {
+        "caption": "About page",
+        "img": "about"
+      }
+    ]
+  },
   "sftff": {
     "client": "San Francisco Transgender Film Festival",
     "color": "#e00229",
