@@ -470,7 +470,7 @@ a {
 /* Popup info lists */
 .info-list {
   margin: 0;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .info-list__item {
