@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+:root {
+  --blue: #009DD9;
+  --red: #F43028;
+  --yellow: #FFE200;
+  --grey-300: #E7E6E6;
+  --grey-500: #CACACA;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+[role="banner"] {
+  background: black;
+  margin: 0 -15px;
+  padding: 10px;
+}
+
+.header__inner {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+/* Search bar */
+.search-bar {
+  padding: 15px 0 30px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 10px,
+    white 100%
+  );
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search-bar label {
+  padding: 0 0 4px;
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  display: block;
+}
+
+.search {
+  width: 100%;
+  border: 1px solid var(--grey-500);
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Data table */
+.data-table {
+  border: 0;
+  border-collapse: separate; 
+  border-spacing: 0 7px; 
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  word-break: break-word;
+  text-overflow: ellipsis;
+}
+
+.data-table td {
+  border: 0;
+  padding: 15px;
+  margin: 0;
+  background-color: var(--grey-300);
+}
+
+.data-table td:last-of-type {
+  text-align: right;
+}
+
+.data-table th {
+  background-color: var(--grey-500);
+  padding: 5px;
+  border: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.data-table tr {
+  position: relative;
+}
+
+.data-table tr > :first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.data-table tr > :last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* UN number */
+.un-num {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  background-color: white;
+  transform: rotate(45deg);
+  line-height: 1;
+}
+
+.un-num--lg {
+  width: 100px;
+  height: 100px;
+  box-shadow: inset 0 0 0 1px white;
+  margin: 20px;
+}
+
+.un-num__inner {
+  transform: rotate(-45deg);
+  width: 32px;
+  height: 32px;
+  padding: 5px 0 0;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 2px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.un-num--lg .un-num__inner {
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+  gap: 8px;
+}
+
+.un-num__number {
+  display: block;
+  font-size: 14px;
+}
+
+.un-num--lg .un-num__number {
+  font-size: 32px;
+  padding: 3px;
+  background-color: white;
+}
+
+.un-num__class {
+  display: block;
+  font-size: 8px;
+}
+
+.un-num--lg .un-num__class {
+  font-size: 14px;
+}
+
+/* UN Num Colors */
+.color--red {
+  background: #DC3F39;
+}
+
+.color--orange {
+  background: #EB8C37;
+}
+
+.color--yellow {
+  background: #FAEC32;
+}
+
+.color--green {
+  background: #06A756;
+}
+
+.color--blue {
+  background: #2593C5;
+}
+
+.color--white {
+  background: white;
+}
+
+.color--red-white-stripes {
+  background: repeating-linear-gradient(
+    45deg,
+    #DC3F39,
+    #DC3F39 8px,
+    white 8px,
+    white 16px
+  );
+}
+
+.color--white-red {
+  background: linear-gradient(
+    135deg,
+    white,
+    white 50%,
+    #DC3F39 50%,
+    #DC3F39 100%
+  );
+}
+
+.color--red-yellow {
+  background: linear-gradient(
+    135deg,
+    #DC3F39,
+    #DC3F39 50%,
+    #FAEC32 50%,
+    #FAEC32 100%
+  );
+}
+
+.color--yellow-white {
+  background: linear-gradient(
+    135deg,
+    #FAEC32,
+    #FAEC32 50%,
+    white 50%,
+    white 100%
+  );
+}
+
+.color--white-black {
+  background: linear-gradient(
+    135deg,
+    white,
+    white 50%,
+    black 50%,
+    black 100%
+  );
+}
+.color--white-black .un-num__class {
+  color: white;
+}
+
+.color--black-white-stripes-white {
+  background: linear-gradient(
+    135deg,
+    transparent,
+    transparent 50%,
+    white 50%,
+    white 100%
+  ), repeating-linear-gradient(
+    45deg,
+    black,
+    black 8px,
+    white 8px,
+    white 16px
+  );
+}
+
+/* Hazmat icons */
+.hazmat-icon::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  transform: rotate(-45deg);
+}
+
+.hazmat-icon--explosive::after {
+  content: url(icons/explosive.svg);
+  aspect-ratio: 396 / 254;
+  top: 8px;
+  left: -2px;
+}
+
+.hazmat-icon--flammable::after {
+  content: url(icons/flammable.svg);
+  aspect-ratio: 184 / 255;
+  top: 4px;
+  left: 7px;
+}
+
+.hazmat-icon--nonflammable-gas::after {
+  content: url(icons/nonflammable-gas.svg);
+  aspect-ratio: 245 / 96;
+  height: 16px;
+  top: 15px;
+  left: 2px;
+}
+
+.hazmat-icon--poisonous::after {
+  content: url(icons/poisonous.svg);
+  aspect-ratio: 243 / 195;
+  top: 3px;
+  left: 0;
+}
+
+.hazmat-icon--oxidizing::after {
+  content: url(icons/oxidizing.svg);
+  aspect-ratio: 141 / 237;
+  top: 4px;
+  left: 10px;
+}
+
+.hazmat-icon--biohazard::after {
+  content: url(icons/biohazard.svg);
+  aspect-ratio: 33 / 31;
+}
+
+.hazmat-icon--corrosive::after {
+  content: url(icons/corrosive.svg);
+  aspect-ratio: 348 / 164;
+  height: 25px;
+  top: 13px;
+  left: -4px;
+}
+
+.hazmat-icon--radioactive::after {
+  content: url(icons/radioactive.svg);
+  aspect-ratio: 92 / 87;
+  top: 5px;
+  left: 5px;
+}
+
+/* NFPA */
+.nfpa {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 32px;
+  height: 32px;
+  line-height: 1;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+  transform: rotate(-45deg);
+}
+
+.nfpa li {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.nfpa--health {
+  top: 0;
+  left: 0;
+  background-color: var(--blue);
+  z-index: 1;
+}
+
+.nfpa--fire {
+  top: 0;
+  right: 0;
+  background-color: var(--red);
+  z-index: 2;
+}
+
+.nfpa--reactivity {
+  bottom: 0;
+  right: 0;
+  background-color: var(--yellow);
+  z-index: 4;
+}
+
+.nfpa--special {
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  z-index: 3;
+}
+
+.nfpa__num {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  transform: rotate(45deg);
+  font-size: 14px;
+}
+
+.nfpa--special .nfpa__num {
+  font-size: 10px;
+}
+
+/* Popup toggle */
+.more-info-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: black;
+  box-shadow: none;
+  font-size: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.more-info-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+
+/* Popup */
+.more-info-dialog {
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.more-info-dialog button {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  background: var(--grey-500);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px;
+  margin: 0 0 15px;
+}
+
+/* Popup info lists */
+.info-list {
+  margin: 0;
+  padding: 0;
+}
+
+.info-list__item {
+  border-bottom: 1px solid var(--grey-500);
+  padding: 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.info-list__item:last-of-type {
+  border-bottom: none;
+}
+
+.info-list__key {
+  flex: 0 0 95px;
+  width: 95px;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.info-list__value {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+/* NFPA lists */
+.nfpa-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nfpa-list li + li {
+  margin: 10px 0 0;
+}
+
+.nfpa-box {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 3px 5px;
+  margin-right: 5px;
+}
+
+.nfpa-box--health {
+  background: var(--blue);
+}
+.nfpa-box--fire {
+  background: var(--red);
+}
+.nfpa-box--reactivity {
+  background: var(--yellow);
+}
+.nfpa-box--special {
+  background: var(--grey-500);
+}
+
+.nfpa-box__num {
+  display: inline-block;
+  margin: -3px -5px -3px 3px;
+  padding: 3px 6px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.nfpa-box__num:empty {
+  display: none;
+}
