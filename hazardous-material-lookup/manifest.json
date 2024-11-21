@@ -1,0 +1,16 @@
+{
+  "short_name": "HazmatLookup",
+  "name": "Hazardous Material Lookup",
+  "start_url": "/hazardous-material-lookup/index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#DC3F39",
+  "icons": [
+    {
+      "src": "/hazardous-material-lookup/appicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
+
